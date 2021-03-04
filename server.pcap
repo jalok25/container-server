@@ -1,0 +1,34 @@
+10:02:45.755864 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [S], seq 884147817, win 64240, options [mss 1460,sackOK,TS val 3824092673 ecr 0,nop,wscale 7], length 0
+10:02:45.755969 IP 5345d3678fab.5000 > 172.17.0.3.54594: Flags [S.], seq 2217901829, ack 884147818, win 65160, options [mss 1460,sackOK,TS val 2869521796 ecr 3824092673,nop,wscale 7], length 0
+10:02:45.755991 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [.], ack 1, win 502, options [nop,nop,TS val 3824092673 ecr 2869521796], length 0
+10:02:45.756045 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [P.], seq 1:81, ack 1, win 502, options [nop,nop,TS val 3824092673 ecr 2869521796], length 80
+10:02:45.756049 IP 5345d3678fab.5000 > 172.17.0.3.54594: Flags [.], ack 81, win 509, options [nop,nop,TS val 2869521796 ecr 3824092673], length 0
+10:02:46.022037 IP 5345d3678fab.44111 > metadata.google.internal.53: 55430+ PTR? 3.0.17.172.in-addr.arpa. (41)
+10:02:46.027312 IP metadata.google.internal.53 > 5345d3678fab.44111: 55430 NXDomain 0/1/0 (138)
+10:02:47.045326 IP 5345d3678fab.38941 > metadata.google.internal.53: 61832+ PTR? 254.169.254.169.in-addr.arpa. (46)
+10:02:47.046634 IP metadata.google.internal.53 > 5345d3678fab.38941: 61832 1/0/0 PTR metadata.google.internal. (84)
+10:02:50.917146 ARP, Request who-has 172.17.0.3 tell 5345d3678fab, length 28
+10:02:50.917197 ARP, Request who-has 5345d3678fab tell 172.17.0.3, length 28
+10:02:50.917205 ARP, Reply 5345d3678fab is-at 02:42:ac:11:00:02 (oui Unknown), length 28
+10:02:50.917206 ARP, Reply 172.17.0.3 is-at 02:42:ac:11:00:03 (oui Unknown), length 28
+10:02:51.173124 ARP, Request who-has 172.17.0.1 tell 5345d3678fab, length 28
+10:02:51.173114 ARP, Request who-has 5345d3678fab tell 172.17.0.1, length 28
+10:02:51.173168 ARP, Reply 5345d3678fab is-at 02:42:ac:11:00:02 (oui Unknown), length 28
+10:02:51.173175 ARP, Reply 172.17.0.1 is-at 02:42:e6:89:44:7f (oui Unknown), length 28
+10:02:52.165321 IP 5345d3678fab.46619 > metadata.google.internal.53: 62216+ PTR? 1.0.17.172.in-addr.arpa. (41)
+10:02:52.166917 IP metadata.google.internal.53 > 5345d3678fab.46619: 62216 NXDomain 0/1/0 (138)
+10:03:24.096580 IP 5345d3678fab.5000 > 172.17.0.3.54594: Flags [P.], seq 1:81, ack 81, win 509, options [nop,nop,TS val 2869560137 ecr 3824092673], length 80
+10:03:24.096635 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [.], ack 81, win 502, options [nop,nop,TS val 3824131014 ecr 2869560137], length 0
+10:03:30.249514 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [P.], seq 81:161, ack 81, win 502, options [nop,nop,TS val 3824137167 ecr 2869560137], length 80
+10:03:30.249552 IP 5345d3678fab.5000 > 172.17.0.3.54594: Flags [.], ack 161, win 509, options [nop,nop,TS val 2869566290 ecr 3824137167], length 0
+10:03:33.565430 IP 5345d3678fab.5000 > 172.17.0.3.54594: Flags [P.], seq 81:161, ack 161, win 509, options [nop,nop,TS val 2869569606 ecr 3824137167], length 80
+10:03:33.565487 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [.], ack 161, win 502, options [nop,nop,TS val 3824140483 ecr 2869569606], length 0
+10:03:35.461127 ARP, Request who-has 172.17.0.3 tell 5345d3678fab, length 28
+10:03:35.461170 ARP, Reply 172.17.0.3 is-at 02:42:ac:11:00:03 (oui Unknown), length 28
+10:03:37.146802 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [P.], seq 161:241, ack 161, win 502, options [nop,nop,TS val 3824144064 ecr 2869569606], length 80
+10:03:37.146824 IP 5345d3678fab.5000 > 172.17.0.3.54594: Flags [.], ack 241, win 509, options [nop,nop,TS val 2869573187 ecr 3824144064], length 0
+10:03:39.068836 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [F.], seq 241, ack 161, win 502, options [nop,nop,TS val 3824145986 ecr 2869573187], length 0
+10:03:39.109312 IP 5345d3678fab.5000 > 172.17.0.3.54594: Flags [.], ack 242, win 509, options [nop,nop,TS val 2869575150 ecr 3824145986], length 0
+10:03:40.043639 IP 5345d3678fab.5000 > 172.17.0.3.54594: Flags [F.], seq 161, ack 242, win 509, options [nop,nop,TS val 2869576084 ecr 3824145986], length 0
+10:03:40.043682 IP 172.17.0.3.54594 > 5345d3678fab.5000: Flags [.], ack 162, win 502, options [nop,nop,TS val 3824146961 ecr 2869576084], length 0
+
